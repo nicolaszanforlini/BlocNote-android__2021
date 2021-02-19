@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin">10dp</dimen>
+    <dimen name="radius">25dp</dimen>
+    <dimen name="btnAddDocSize">45sp</dimen>
+    <dimen name="btnAddDocPaddingTop">5sp</dimen>
+    <dimen name="Size">15sp</dimen>
+    <dimen name="btnNewDoc">180dp</dimen>
+    <dimen name="_Margin">20sp</dimen>
+
+</resources>

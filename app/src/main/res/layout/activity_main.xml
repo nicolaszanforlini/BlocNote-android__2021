@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView style="@style/themePrincipale.textTitle"
+        android:id="@+id/txtTitleActivity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBlocNote"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDelete"
+            android:layout_below="@+id/txtTitleActivity2"
+            android:layout_marginTop="@dimen/_Margin"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginStart="@dimen/margin"
+            android:text="@string/txtBtnDelete"
+            android:background="@drawable/state_btn_delete"
+            android:theme="@style/themePrincipale.btnMenu"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtNewDoc"
+            android:text="@string/txtNewDoc"
+            android:textStyle="italic"
+            android:textSize="@dimen/Size"
+            android:layout_below="@id/txtTitleActivity2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_Margin"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNewDoc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/btnAddDocPaddingTop"
+            android:id="@+id/btnNewDoc"
+            android:text="@string/txtBtnNewDoc"
+            android:theme="@style/themePrincipale.btnNewDoc"
+            android:background="@drawable/state_btn_new_doc"/>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/btnNewDoc"
+            android:layout_marginTop="@dimen/_Margin"
+            android:layout_marginStart="@dimen/_Margin"
+            android:layout_marginEnd="@dimen/_Margin"
+            android:id="@+id/tabTxt"
+            android:layout_marginLeft="@dimen/_Margin">
+
+
+
+        </TableLayout>
+
+        <!--clear database>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/del"/>
+        <comment-->
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
